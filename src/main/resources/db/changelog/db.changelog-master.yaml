@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: news/000001_create_table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: news/000002_add_publication_date.sql
+      relativeToChangelogFile: true
